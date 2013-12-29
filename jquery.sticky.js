@@ -57,7 +57,7 @@
               .css('top', newTop);
 
             if (typeof s.getWidthFrom !== 'undefined') {
-              s.stickyElement.css('width', $(s.getWidthFrom).width());
+              s.stickyElement.css('width', '25%');
             }
 
             s.stickyElement.parent().addClass(s.className);
