@@ -41,6 +41,8 @@
               .css('top', '');
             s.stickyElement.parent().removeClass(s.className);
             s.currentTop = null;
+            s.stickyElement.css('width', '');
+
           }
         }
         else {
@@ -57,7 +59,7 @@
               .css('top', newTop);
 
             if (typeof s.getWidthFrom !== 'undefined') {
-              s.stickyElement.css('width', '25%');
+              s.stickyElement.css('width', '19%');
             }
 
             s.stickyElement.parent().addClass(s.className);
